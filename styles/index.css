@@ -1,0 +1,30 @@
+#span-button {
+  display: inline;
+}
+
+button {
+  padding: 8px;
+  font-family: sans-serif;
+  border: 1px solid salmon;
+  border-radius: 4px;
+}
+
+div {
+  margin: 4px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+input::placeholder {
+  color: gray;
+  font-weight: lighter;
+  font-family: sans-serif;
+}
